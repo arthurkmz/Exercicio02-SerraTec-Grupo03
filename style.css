@@ -1,0 +1,63 @@
+/*exercício1*/
+a:link {
+	color: purple;
+	text-decoration: none;
+}
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+/*Exercício2*/
+h3::before {
+    content: "\1F680";        
+    }
+
+/*Exercício3*/
+li:nth-child(odd) {
+    display: inline-block;
+	background-color: rgb(107, 100, 102);
+    color: white;
+}
+
+/*Exercício4*/
+p[class="importante"] {
+    text-transform: uppercase;
+    width: 500px;
+    background-color: rgb(107, 100, 102);
+    color: white;
+}
+/*Exercício5*/
+.button:hover {
+     background-color: black;
+     color: white;
+}
+.container-button:houver {
+    background-color: rgb(107, 100, 102);
+    color: white;
+}
+/*Exercício6*/
+[meuNomeDeAtributo] {
+    width: 100px;
+    background-color: rgb(107, 100, 102);
+    color: white;
+}
+/*Execício7*/
+.dl-filhos {
+    background-color: rgb(107, 100, 102);
+    color: white;
+    width: 100px;
+}
+.dt {
+    font-weight: bold;
+}
+/*Exercicio8*/
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+input[type="text"]:focus {
+    background: rgb(107, 100, 102);
+    color: black;
+}
